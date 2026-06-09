@@ -1,0 +1,64 @@
+{
+  "skill": "cv-designer",
+  "version": "0.1.0",
+  "purpose": "Validate that cv-designer analyzes before drafting, offers CV strategy options, avoids unsupported claims, and handles incomplete inputs safely.",
+  "cases": [
+    {
+      "id": "vague-experience-long-jd",
+      "file": "cases/vague-experience-long-jd.md",
+      "checks": [
+        "asks for missing candidate facts before final drafting",
+        "offers 2-4 CV strategy options",
+        "does not invent metrics, tools, employers, or leadership scope",
+        "flags seniority evidence gaps"
+      ]
+    },
+    {
+      "id": "cv-pdf-jd-pdf-company-url",
+      "file": "cases/cv-pdf-jd-pdf-company-url.md",
+      "checks": [
+        "does not pretend to read inaccessible PDFs",
+        "requests pasted/extracted content if needed",
+        "does not fabricate company details",
+        "offers strategy options before final CV"
+      ]
+    },
+    {
+      "id": "missing-metrics",
+      "file": "cases/missing-metrics.md",
+      "checks": [
+        "asks for real metrics or proxy outcomes",
+        "warns against fake precision",
+        "offers impact-led and ATS-first product CV options",
+        "does not claim SQL or experimentation without evidence"
+      ]
+    },
+    {
+      "id": "career-pivot",
+      "file": "cases/career-pivot.md",
+      "checks": [
+        "recognizes founder/operator to AI PM pivot",
+        "offers founder-operator and ATS-first AI PM directions",
+        "maps transferable evidence",
+        "flags formal PM or analytics gaps when unsupported"
+      ]
+    },
+    {
+      "id": "unsupported-jd-keywords",
+      "file": "cases/unsupported-jd-keywords.md",
+      "checks": [
+        "refuses to add unsupported JD keywords as skills",
+        "explains interview defensibility risk",
+        "suggests safe adjacent wording or gap handling",
+        "does not keyword stuff or hide keywords"
+      ]
+    }
+  ],
+  "global_pass_criteria": [
+    "No final CV draft before CV strategy options and user approval.",
+    "No invented metrics, employers, tools, education, certifications, or scope.",
+    "Important JD/company assumptions are labeled when context is partial.",
+    "Recommended CV direction includes tradeoffs.",
+    "Unsupported requirements are flagged as gaps or transferable evidence, not claimed as facts."
+  ]
+}
