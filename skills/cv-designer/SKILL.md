@@ -26,117 +26,44 @@ Do not use for:
 - writing generic CV advice with no target role or context,
 - drafting a final CV before the user chooses or approves a CV direction.
 
-## Required Input
+## Required Behavior
 
-Accept any mix of:
+1. Collect candidate CV/experience, target JD, and company context.
+2. If critical context is missing, ask before drafting or label assumptions if user wants to proceed.
+3. Analyze candidate profile, JD, and company before writing CV text.
+4. Present 2-4 CV strategy options before drafting.
+5. Wait for user to choose or approve a CV direction.
+6. Draft only from real candidate evidence.
+7. Review with truthfulness, JD match, ATS hygiene, recruiter scan, and company-fit checks.
 
-1. Candidate CV or experience history as text/PDF.
-2. Target JD as text/PDF/link.
-3. Target company website or company context.
+## Supporting Guides
 
-If a critical input is missing, ask for it before drafting. If the user wants to proceed with partial context, clearly label assumptions and risks.
+Load these when doing the corresponding work:
 
-## Core Workflow
-
-1. **Intake** — collect candidate experience, JD, company context, target role, seniority, market/location, and constraints.
-2. **Candidate Profile Extraction** — extract roles, achievements, metrics, skills, projects, education, constraints, and sensitive/uncertain claims.
-3. **JD Analysis** — identify must-haves, nice-to-haves, responsibilities, keywords, seniority signals, and hidden priorities.
-4. **Company Analysis** — infer company stage, product/business model, culture/tone, likely hiring signals, and CV tone implications.
-5. **Match Strategy** — map strongest overlaps, gaps, transferable evidence, and claims to avoid.
-6. **CV Strategy Options** — propose 2-4 CV directions the user can choose from.
-7. **User Direction Gate** — do not draft final CV until user selects or approves a direction.
-8. **Draft CV** — write selected version using real evidence, target keywords, and reference library patterns.
-9. **Review** — run truthfulness, ATS, recruiter scan, keyword, and readability checks.
-10. **Final Output** — provide final CV plus change notes, missing info, and interview risk notes.
-
-## CV Strategy Options Gate
-
-After analyzing the JD and company, always present CV strategy options before drafting.
-
-Each option must include:
-
-- CV type name,
-- why it fits this JD/company,
-- what it emphasizes,
-- what it downplays,
-- risk/tradeoff,
-- recommended use case.
-
-Common option types:
-
-| CV Type | Best For | Emphasizes | Downplays |
-| --- | --- | --- | --- |
-| ATS-first CV | job portals, enterprise, keyword-heavy JDs | exact JD match, standard structure, parseability | distinctive narrative/design |
-| Impact-led tech CV | startups/scaleups, product/engineering/data roles | shipped work, metrics, ownership, business/product impact | broad career story |
-| Founder-operator CV | early-stage startups, operator/product/growth roles | zero-to-one, ambiguity, customer/growth/revenue ownership | formal enterprise process |
-| Specialist credibility CV | AI/ML/infra/security/backend specialist roles | technical depth, systems/projects, domain proof | generalist positioning |
-| Leadership/seniority CV | EM, lead, staff, head roles | team scope, strategy, mentoring, delivery, cross-functional influence | hands-on implementation detail unless needed |
-
-Example format:
-
-```markdown
-## Recommended CV Directions
-
-### Option A — ATS-first Product CV
-Best if applying through a job portal.
-Emphasizes: JD keyword match, product metrics, roadmap ownership.
-Downplays: founder narrative.
-Risk: less memorable to founder/team readers.
-
-### Option B — Founder-Operator Product CV
-Best if the company is early-stage and the role values ambiguity.
-Emphasizes: zero-to-one ownership, growth, customer discovery.
-Downplays: formal enterprise PM process.
-Risk: weaker for ATS if not keyword-balanced.
-
-### Recommendation
-Use Option B as the main version, with ATS keyword hygiene from Option A.
-```
-
-## Drafting Rules
-
-- Never invent metrics, employers, tools, education, certifications, or scope.
-- Mark missing or uncertain facts instead of filling them silently.
-- Prefer exact JD terminology only when it truthfully matches candidate experience.
-- Use metrics when real; otherwise use observable outcomes.
-- Keep ATS readability unless the user explicitly chooses a design-forward version.
-- Preserve interview defensibility: every strong claim should be explainable by the candidate.
+- `workflow.md` — end-to-end process and hard gate.
+- `intake.md` — input requirements and extraction checklists.
+- `strategy-options.md` — CV type options and recommendation format.
+- `scoring-rubric.md` — final review checklist and scores.
+- `output-formats.md` — Markdown CV and final delivery formats.
 
 ## Reference Library
 
-When tailoring a tech CV, consult these references when relevant:
+Consult these references when relevant:
 
 - `references/cv-templates/` for reconstructed role-family templates and CV section patterns.
 - `references/ats-keywords/` for role keyword maps and ATS/recruiter screening best practices.
 
-Use references as guidance only. The final CV must be based on the candidate's real experience, the target JD, and verified company context.
+References guide structure and wording only. The final CV must be based on the candidate's real experience, the target JD, and verified company context.
 
-## Review Checklist
+## Non-Negotiable Rules
 
-Before finalizing, check:
+- No final CV draft before CV strategy options and user approval.
+- Never invent metrics, employers, tools, education, certifications, or scope.
+- Mark missing or uncertain facts instead of filling them silently.
+- Prefer exact JD terminology only when it truthfully matches candidate experience.
+- Preserve interview defensibility: every strong claim should be explainable by the candidate.
+- Do not leak sensitive/confidential details unnecessarily.
 
-- CV direction chosen or approved by user.
-- Must-have JD requirements are addressed where truthfully supported.
-- Important keywords appear in skills and experience context, not stuffed.
-- Most relevant achievements appear in the top third.
-- Claims with missing evidence are flagged.
-- Formatting is ATS-readable unless user chose otherwise.
-- Tone matches company context and seniority.
-- CV does not leak sensitive/confidential details unnecessarily.
+## Baseline Risks Prevented
 
-## Baseline Risks Found
-
-Without this skill, agents may:
-
-- draft too early from vague inputs,
-- skip company/JD positioning analysis,
-- choose one generic CV style without offering alternatives,
-- overfit to JD keywords,
-- create weak bullets without verified metrics,
-- add claims that are hard to defend in interviews.
-
-This skill prevents those failures by requiring analysis, CV direction options, user approval, and fact-safe drafting.
-
-## Current Status
-
-Core workflow v1 is defined. Remaining work: supporting files, example outputs, eval scenarios, and real-data tuning.
+Without this skill, agents may draft too early, skip company/JD positioning, choose one generic CV style, overfit keywords, create weak bullets, or add claims hard to defend in interviews.
