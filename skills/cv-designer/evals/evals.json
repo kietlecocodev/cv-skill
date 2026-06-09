@@ -1,7 +1,7 @@
 {
   "skill": "cv-designer",
-  "version": "0.2.0",
-  "purpose": "Validate that cv-designer analyzes before drafting, offers CV strategy options, avoids unsupported claims, handles incomplete inputs safely, and produces English designed HTML/CSS CV output.",
+  "version": "0.3.0",
+  "purpose": "Validate that cv-designer analyzes before drafting, offers CV strategy options, avoids unsupported claims, handles incomplete inputs safely, and produces English designed HTML/CSS CV output with gentle company brand color usage.",
   "cases": [
     {
       "id": "vague-experience-long-jd",
@@ -62,6 +62,7 @@
         "produces self-contained HTML/CSS artifact",
         "uses Montserrat as primary font",
         "uses target company colors or labels inferred colors",
+        "uses company colors gently as accents, not dominant decoration",
         "keeps design recruiter-readable and fact-safe"
       ]
     }
@@ -74,6 +75,7 @@
     "Unsupported requirements are flagged as gaps or transferable evidence, not claimed as facts.",
     "Final CV output is English.",
     "Final designed artifact includes design spec plus HTML/CSS.",
-    "HTML/CSS uses Montserrat and company brand colors when available."
+    "HTML/CSS uses Montserrat and company brand colors when available.",
+    "Company brand colors are used gently and never overpower readability."
   ]
 }

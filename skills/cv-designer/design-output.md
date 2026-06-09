@@ -9,8 +9,9 @@ Produce the final CV as an English, design-first HTML/CSS artifact plus a short 
 - Final CV language: English.
 - Final designed artifact: HTML/CSS.
 - Font: Montserrat.
-- Color palette: use target company brand colors when available.
+- Color palette: use target company brand colors gently when available.
 - If brand colors are unavailable, infer a conservative palette from the company website/logo and label it as inferred.
+- Use `brand-colors.md` to keep company colors subtle, professional, and readable.
 - Do not use colors or layout choices that reduce readability.
 - Do not sacrifice truthfulness or ATS/recruiter clarity for decoration.
 

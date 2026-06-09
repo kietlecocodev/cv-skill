@@ -47,6 +47,7 @@ Load these when doing the corresponding work:
 - `scoring-rubric.md` — final review checklist and scores.
 - `output-formats.md` — strategy, HTML CV, and final delivery formats.
 - `design-output.md` — English HTML/CSS artifact rules, Montserrat typography, and company brand color usage.
+- `brand-colors.md` — gentle company color extraction and subtle usage rules.
 - `html-template-rules.md` — premium layout system, CSS defaults, print rules, and anti-slop design constraints.
 
 ## Reference Library
@@ -69,7 +70,8 @@ References guide structure and wording only. The final CV must be based on the c
 - Final CV must be written in English.
 - Final artifact must include design spec plus self-contained HTML/CSS.
 - Use Montserrat as default font.
-- Use target company brand colors when available; label inferred colors when exact values are unknown.
+- Use target company brand colors gently when available; label inferred colors when exact values are unknown.
+- Brand colors should be accents, not dominant page decoration.
 
 ## Baseline Risks Prevented
 

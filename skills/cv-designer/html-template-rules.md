@@ -79,11 +79,15 @@ body {
 
 ## Color Rules
 
+Use `brand-colors.md` for extraction and gentle usage.
+
 - Primary brand color can be used for name accent, section rules, tags, or metric labels.
-- Accent color should appear sparingly.
+- Keep primary color to roughly 5-10% of visible page area.
+- Keep accent color to roughly 1-3% of visible page area.
 - Text must stay dark on light background unless contrast is clearly high.
 - Never place long body text on saturated color blocks.
 - If company palette is loud, mute it for CV use.
+- Brand color should make the CV feel tailored, not branded like a marketing page.
 
 ## Required HTML Sections
 

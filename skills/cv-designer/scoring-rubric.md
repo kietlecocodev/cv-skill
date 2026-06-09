@@ -44,6 +44,7 @@ Use this rubric before finalizing a CV draft.
 - HTML/CSS artifact is self-contained enough to render.
 - Montserrat is used as the primary font.
 - Company brand colors are used tastefully and accessibly.
+- Brand color usage is gentle: mostly accents, not dominant decoration.
 - Inferred brand colors are labeled as assumptions.
 - Contrast, spacing, and hierarchy support a 10-second recruiter scan.
 - Template choice matches CV strategy and company context.
