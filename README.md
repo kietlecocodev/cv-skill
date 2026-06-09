@@ -16,6 +16,15 @@ skills/
     SKILL.md
 ```
 
+## Reference Library
+
+The plugin includes two reference libraries:
+
+- `references/cv-templates/` — reconstructed tech CV templates and reusable writing patterns.
+- `references/ats-keywords/` — role keyword maps and ATS/recruiter screening best practices.
+
+These references synthesize public web sources. They should guide CV design without copying copyrighted templates or adding unsupported claims.
+
 ## Privacy note
 
 This plugin may help process sensitive career information. Keep personal data, company-confidential details, compensation, and private contact information out of public examples and tests.

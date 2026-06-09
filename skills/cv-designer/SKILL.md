@@ -37,6 +37,15 @@ Do not use for:
 
 Without a dedicated skill, an agent may draft too early from vague inputs, overfit to JD keywords, or create weak bullets without verified metrics. This skill should force context collection and fact safety before CV generation.
 
+## Reference Library
+
+When tailoring a tech CV, consult these references when relevant:
+
+- `references/cv-templates/` for reconstructed role-family templates and CV section patterns.
+- `references/ats-keywords/` for role keyword maps and ATS/recruiter screening best practices.
+
+Use references as guidance only. The final CV must be based on the candidate's real experience, the target JD, and verified company context.
+
 ## Current Status
 
 Detailed CV workflow, ATS rules, templates, examples, quality rubric, and evaluation scenarios are pending deeper design with the user.
