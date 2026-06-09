@@ -34,7 +34,8 @@ Do not use for:
 4. Present 2-4 CV strategy options before drafting.
 5. Wait for user to choose or approve a CV direction.
 6. Draft only from real candidate evidence.
-7. Review with truthfulness, JD match, ATS hygiene, recruiter scan, and company-fit checks.
+7. Produce final output in English as a design spec plus self-contained HTML/CSS CV artifact.
+8. Review with truthfulness, JD match, ATS hygiene, recruiter scan, company-fit, and design-readability checks.
 
 ## Supporting Guides
 
@@ -44,7 +45,8 @@ Load these when doing the corresponding work:
 - `intake.md` — input requirements and extraction checklists.
 - `strategy-options.md` — CV type options and recommendation format.
 - `scoring-rubric.md` — final review checklist and scores.
-- `output-formats.md` — Markdown CV and final delivery formats.
+- `output-formats.md` — strategy, HTML CV, and final delivery formats.
+- `design-output.md` — English HTML/CSS artifact rules, Montserrat typography, and company brand color usage.
 
 ## Reference Library
 
@@ -63,6 +65,10 @@ References guide structure and wording only. The final CV must be based on the c
 - Prefer exact JD terminology only when it truthfully matches candidate experience.
 - Preserve interview defensibility: every strong claim should be explainable by the candidate.
 - Do not leak sensitive/confidential details unnecessarily.
+- Final CV must be written in English.
+- Final artifact must include design spec plus self-contained HTML/CSS.
+- Use Montserrat as default font.
+- Use target company brand colors when available; label inferred colors when exact values are unknown.
 
 ## Baseline Risks Prevented
 

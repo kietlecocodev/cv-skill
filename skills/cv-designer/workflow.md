@@ -13,13 +13,14 @@ Run an end-to-end CV tailoring process from candidate input, JD, and company con
 5. **Match Strategy** — map strongest overlaps, gaps, transferable evidence, and claims to avoid.
 6. **CV Strategy Options** — propose 2-4 CV directions before drafting.
 7. **User Direction Gate** — wait for user selection or approval.
-8. **Draft CV** — write selected version using real evidence, target keywords, and reference library patterns.
-9. **Review** — run truthfulness, ATS, recruiter scan, keyword, and readability checks.
-10. **Final Output** — provide final CV plus change notes, missing info, and interview risk notes.
+8. **Draft English CV Content** — write selected version using real evidence, target keywords, and reference library patterns.
+9. **Design Output Layer** — extract/infer target company colors, create design spec, and produce self-contained HTML/CSS using Montserrat.
+10. **Review** — run truthfulness, ATS, recruiter scan, keyword, company-fit, and design-readability checks.
+11. **Final Output** — provide design spec, HTML CV, change notes, missing info, interview risk notes, and ATS-safe notes.
 
 ## Hard Gate
 
-Do not draft final CV until the user chooses or approves a CV strategy option.
+Do not draft final CV until the user chooses or approves a CV strategy option. Final CV output must be English and must include design spec plus self-contained HTML/CSS unless the user explicitly requests a different format.
 
 ## Reference Use
 

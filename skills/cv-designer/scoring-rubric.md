@@ -38,6 +38,16 @@ Use this rubric before finalizing a CV draft.
 - Evidence highlights likely hiring signals.
 - CV does not over-index on irrelevant achievements.
 
+## Design Readability
+
+- Final CV is English.
+- HTML/CSS artifact is self-contained enough to render.
+- Montserrat is used as the primary font.
+- Company brand colors are used tastefully and accessibly.
+- Inferred brand colors are labeled as assumptions.
+- Contrast, spacing, and hierarchy support a 10-second recruiter scan.
+- Visual design does not hide key facts or reduce ATS-safe adaptation.
+
 ## Scoring
 
 Rate each category 1-5:
@@ -48,4 +58,4 @@ Rate each category 1-5:
 - 2: missing key evidence.
 - 1: unsafe or not aligned.
 
-If any category is 1-2, revise before final output.
+If any category is 1-2, revise before final output. If Truthfulness is below 5, block final claims until the user confirms missing evidence. If Design Readability is below 4, simplify layout, improve contrast, or reduce decorative color use.

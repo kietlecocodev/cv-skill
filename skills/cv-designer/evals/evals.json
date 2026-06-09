@@ -1,7 +1,7 @@
 {
   "skill": "cv-designer",
-  "version": "0.1.0",
-  "purpose": "Validate that cv-designer analyzes before drafting, offers CV strategy options, avoids unsupported claims, and handles incomplete inputs safely.",
+  "version": "0.2.0",
+  "purpose": "Validate that cv-designer analyzes before drafting, offers CV strategy options, avoids unsupported claims, handles incomplete inputs safely, and produces English designed HTML/CSS CV output.",
   "cases": [
     {
       "id": "vague-experience-long-jd",
@@ -52,6 +52,18 @@
         "suggests safe adjacent wording or gap handling",
         "does not keyword stuff or hide keywords"
       ]
+    },
+    {
+      "id": "html-designed-output",
+      "file": "cases/html-designed-output.md",
+      "checks": [
+        "final CV content is English",
+        "includes CV design direction/spec",
+        "produces self-contained HTML/CSS artifact",
+        "uses Montserrat as primary font",
+        "uses target company colors or labels inferred colors",
+        "keeps design recruiter-readable and fact-safe"
+      ]
     }
   ],
   "global_pass_criteria": [
@@ -59,6 +71,9 @@
     "No invented metrics, employers, tools, education, certifications, or scope.",
     "Important JD/company assumptions are labeled when context is partial.",
     "Recommended CV direction includes tradeoffs.",
-    "Unsupported requirements are flagged as gaps or transferable evidence, not claimed as facts."
+    "Unsupported requirements are flagged as gaps or transferable evidence, not claimed as facts.",
+    "Final CV output is English.",
+    "Final designed artifact includes design spec plus HTML/CSS.",
+    "HTML/CSS uses Montserrat and company brand colors when available."
   ]
 }
