@@ -12,6 +12,8 @@ I chose the Impact-led tech CV direction. Please generate the final CV for a Pro
 - Uses target company brand colors or clearly labels inferred colors.
 - Produces self-contained HTML/CSS CV artifact.
 - Keeps design readable and recruiter-scannable.
+- Chooses an appropriate layout template such as impact-led, technical-credibility, or ATS-polished.
+- Uses A4/print-aware CSS and avoids generic gradients, skill bars, random icons, and heavy decorative sidebars.
 - Includes ATS-safe notes if design choices may not work for job portals.
 - Does not change facts or invent achievements during design conversion.
 

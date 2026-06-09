@@ -68,7 +68,7 @@ Before or alongside HTML, include:
 
 ## HTML Artifact Requirements
 
-HTML/CSS should be self-contained unless user asks otherwise.
+HTML/CSS should be self-contained unless user asks otherwise. Use `html-template-rules.md` for template choice, CSS foundation, typography scale, layout rules, print settings, and anti-slop constraints.
 
 Required structure:
 

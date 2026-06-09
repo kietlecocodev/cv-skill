@@ -46,6 +46,9 @@ Use this rubric before finalizing a CV draft.
 - Company brand colors are used tastefully and accessibly.
 - Inferred brand colors are labeled as assumptions.
 - Contrast, spacing, and hierarchy support a 10-second recruiter scan.
+- Template choice matches CV strategy and company context.
+- A4/print behavior is considered.
+- Visual design avoids generic gradients, skill bars, random icons, and oversized decorative sidebars.
 - Visual design does not hide key facts or reduce ATS-safe adaptation.
 
 ## Scoring

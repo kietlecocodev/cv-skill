@@ -47,6 +47,7 @@ Load these when doing the corresponding work:
 - `scoring-rubric.md` — final review checklist and scores.
 - `output-formats.md` — strategy, HTML CV, and final delivery formats.
 - `design-output.md` — English HTML/CSS artifact rules, Montserrat typography, and company brand color usage.
+- `html-template-rules.md` — premium layout system, CSS defaults, print rules, and anti-slop design constraints.
 
 ## Reference Library
 
